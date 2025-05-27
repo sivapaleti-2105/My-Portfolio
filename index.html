@@ -2,390 +2,200 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Siva Paleti - Senior Software Engineer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siva Paleti | Software Engineer</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
-        <div class="container">
-            <a class="navbar-brand" href="#">My Portfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
     </nav>
 
     <!-- Hero Section -->
-    <section class="bgimage" id="home">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 hero-text text-center">
-                    <h2 class="hero_title">Hi, I'm Siva Paleti</h2>
-                    <p class="hero_desc">Senior Software Engineer</p>
-                </div>
+    <section class="hero">
+        <div class="hero-content">
+            <img src="assets/heroImage.jpg" alt="Siva Paleti" class="hero-img" />
+            <h1>Siva Paleti</h1>
+            <h2>Software Engineer</h2>
+            <p>Building scalable, secure, and high-quality software solutions.</p>
+            <div class="hero-links">
+                <a href="mailto:sivapaleti21@outlook.com">Email</a>
+                <a href="https://linkedin.com/in/your-link" target="_blank">LinkedIn</a>
+                <a href="https://github.com/your-github" target="_blank">GitHub</a>
+                <a href="#">Portfolio</a>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container mt-4 pt-4">
-            <h1 class="text-center">About Me</h1>
-            <div class="row mt-4">
-                <div class="col-lg-4">
-                    <img src="assets/profile.jpg" class="imageAboutPage" alt="Siva Paleti">
+    <!-- About -->
+    <section id="about" class="fade-in-section">
+        <h2>Summary</h2>
+        <p>
+            Experienced Software Engineer with a robust 5-year background in full-stack application development,
+            emphasizing agile methodologies and process optimization within the SDLC. Proficient in a diverse array of
+            technologies, including back-end frameworks like Spring and Node.js, and front-end technologies such as
+            Angular, ReactJS. My approach integrates a strong foundation in object-oriented programming and microservices
+            architecture, underpinning my ability to craft high-quality, scalable, and secure software solutions.
+            Demonstrated proficiency in API development across various protocols (RESTful, GraphQL, gRPC), complemented
+            by adeptness in advanced testing frameworks (Cypress.io, JUnit, Jest, Jacoco, Chaos, Jmeter, Pitest).
+            Skilled in utilizing AWS for building and maintaining scalable, secure cloud-based applications,
+            consistently delivering projects that surpass business expectations.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="fade-in-section">
+        <h2>Core Skills</h2>
+        <ul class="skills-list">
+            <li><strong>Programming Languages:</strong> Java, JavaScript, TypeScript, Python, Groovy, Go</li>
+            <li><strong>Frameworks:</strong> Spring Boot, Node.js, NestJS, React Native, Kafka, RESTful, GraphQL, gRPC,
+                RabbitMQ, Cypress.io, Jest, JUnit</li>
+            <li><strong>Databases:</strong> SQL (PostgreSQL, MySQL, Oracle, IBMDB2), NoSQL (MongoDB, Cassandra, Aerospike),
+                AWS RDS</li>
+            <li><strong>Tools:</strong> Postman, Docker, Git, Datadog, Splunk, Kubernetes, Grafana, Kibana, Ansible,
+                Bamboo, Terraform, Jenkins</li>
+            <li><strong>Software Development:</strong> Agile, RESTful API Design, TDD, BDD</li>
+            <li><strong>Cloud Platforms:</strong> AWS (EC2, ELB, ECS, Lambda, S3, EKS, IAM, CloudWatch, Secrets
+                Manager), GCP</li>
+        </ul>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="fade-in-section">
+        <h2>Work Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <h3>Software Engineer <span class="company">@ USAA</span></h3>
+                    <span>Plano, TX | Sep 2024 - Present</span>
                 </div>
-                <div class="col-lg-8">
-                    <p class="lead">Experienced Software Engineer with a robust 5-year background in full-stack
-                        application development, emphasizing agile
-                        methodologies and process optimization within the SDLC. Proficient in a diverse array of
-                        technologies, including
-                        back-end frameworks like Spring and Node.js, and front-end technologies such as Angular,
-                        ReactJS. My approach integrates
-                        a strong foundation in object-oriented programming and microservices architecture, underpinning
-                        my ability to craft
-                        high-quality, scalable, and secure software solutions. Demonstrated proficiency in API
-                        development across various
-                        protocols (RESTful, GraphQL, gRPC), complemented by adeptness in advanced testing frameworks
-                        (Cypress.io, JUnit, Jest,
-                        Jmeter, Pitest). Skilled in utilizing AWS for building and maintaining scalable, secure
-                        cloud-based applications,
-                        consistently delivering projects that surpass business expectations.</p>
-                    <div class="row mt-4">
-                        <div class="col-md-6">
-                            <ul class="about-list">
-                                <li><i class="fas fa-user"></i> <strong>Name:</strong> Siva Paleti</li>
-                                <li><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> Plano, TX</li>
-                                <li><i class="fas fa-envelope"></i> <strong>Email:</strong> <a
-                                        href="mailto:sivapaleti21@outlook.com">sivapaleti21@outlook.com</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <ul class="about-list">
-                                <li><i class="fas fa-phone"></i> <strong>Phone:</strong> (929) 543-7182</li>
-                                <li><i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong> <a
-                                        href="https://linkedin.com/in/sivapaleti" target="_blank">Siva Paleti</a></li>
-                                <li><i class="fas fa-certificate"></i> <strong>Experience:</strong> 5+ Years</li>
-                            </ul>
-                        </div>
-                    </div>
+                <ul class="timeline-details">
+                    <li>Designed and developed scalable RESTful APIs for Dwelling Policy Inquiry using Java Spring Boot,
+                        integrating with Guidewire and legacy systems, and deployed on AWS EKS with infrastructure
+                        automated through Terraform.</li>
+                    <li>Implemented advanced testing frameworks with JUnit, Pitest, Postman, and Taurus/JMeter, achieving
+                        100% unit and mutation coverage and automating results integration into GitLab CI/CD pipelines
+                        and Jira workflows.</li>
+                    <li>Enhanced performance and reliability by leveraging AWS ElastiCache (Redis OSS) for distributed
+                        caching, integrating Datadog and Kibana ELK for real-time monitoring and proactive issue
+                        resolution.</li>
+                    <li>Enhanced performance and resilience by implementing circuit breaker patterns and retry mechanisms
+                        to handle failures gracefully and ensure high availability of APIs under intermittent faults or
+                        downtime.</li>
+                    <li>Debugged issues using cloud tools such as Grafana, Prometheus, Kibana, Splunk and others.</li>
+                    <li>Engineered high-performance APIs to handle over 30 million monthly hits from consumers across
+                        Policy Inquiry and Quote Inquiry systems, optimizing throughput and ensuring seamless performance
+                        under heavy traffic.</li>
+                    <li>Authored low-level design documents and artifacts to define workflows, component interactions,
+                        and system dependencies for new feature implementations.</li>
+                    <li>Led the offshore team in implementing critical features, providing technical guidance, resolving
+                        blockers, and ensuring timely delivery of high-quality solutions.</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <h3>Senior Full-Stack Developer <span class="company">@ Broadridge</span></h3>
+                    <span>Coppell, TX | July 2023 - Aug 2024</span>
                 </div>
+                <ul class="timeline-details">
+                    <li>Migrated monolithic applications from Struts to microservices using Spring Boot and RESTful APIs,
+                        significantly improving system performance and scalability.</li>
+                    <li>Re-engineered front-end components using Angular 13, optimizing the application’s modularity and
+                        maintainability, expediting feature development, and improving user experience.</li>
+                    <li>Leveraged an SQL-based relational database architecture to ensure data integrity and consistency
+                        across all microservices, supporting seamless data handling and high-performance queries in the
+                        AWS cloud environment.</li>
+                    <li>Designed and deployed AWS cloud solutions (EC2, ECS, S3, RDS, EBS) with Elastic Load Balancing
+                        and Auto Scaling groups to ensure application resilience and scalability.</li>
+                    <li>Integrated MuleSoft to streamline connections with backend services, which sped up response times
+                        for key transactions, a major factor in enhancing user experience.</li>
+                    <li>Built and maintained a CI/CD pipeline with Jenkins and Kubernetes, using containers for smoother
+                        deployments and reduced downtime during releases, which improved team efficiency and application
+                        uptime.</li>
+                    <li>Optimized the adaptability of the UI for different screen sizes, which reduced the UI
+                        compatibility issues by 25%.</li>
+                    <li>Led a team of interns in implementing a proposal category service using AWS lambda enabling
+                        existing services and web client to control alerts. Additionally, supervised the entire redesign
+                        of the user account page on the website.</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <h3>Software Engineer <span class="company">@ Broadridge</span></h3>
+                    <span>Coppell, TX | Feb 2022 - Jun 2023</span>
+                </div>
+                <ul class="timeline-details">
+                    <li>Developed high-performing APIs using GraphQL and Spring Boot, improving data flow and enabling
+                        smooth integration with third-party systems. Worked closely with external vendors to ensure
+                        technical alignment, successfully enhancing the performance of microservices architecture.</li>
+                    <li>Integrated Spring Boot with MySQL using Spring Data JPA, replacing older persistence layers to
+                        optimize database interactions while adhering to JPA/Hibernate standards. Improved data
+                        consistency and query performance through efficient handling of relational database operations.</li>
+                    <li>Developed and maintained Proxy Votes web and mobile applications using Angular, JavaScript,
+                        TypeScript, and jQuery, allowing shareholders to cast votes seamlessly online.</li>
+                    <li>Developed unit tests using Mockito as part of Test-Driven Development (TDD) practices,
+                        improving code quality and maintaining comprehensive test coverage.</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <h3>Software Engineer Backend <span class="company">@ Capital One</span></h3>
+                    <span>Plano, TX | Aug 2021 - Dec 2021</span>
+                </div>
+                <ul class="timeline-details">
+                    <li>Created gRPC APIs to seamlessly integrate with external vendors, while employing NestJS migrations
+                        for establishing structured database schemas on the server side. Proficiently utilized new
+                        TypeScript features such as block scope, type constraints, decorators, arrow functions, classes,
+                        interfaces, and modules.</li>
+                    <li>Orchestrated the adoption of a Microservices architecture within the NestJS framework. Coordinated
+                        the interplay of Microservices via a mix of RESTful interfaces and Kafka message brokers.
+                        Ensured extensive unit test coverage through a test-driven development approach.</li>
+                    <li>Worked in the quoting domain, responsible for providing quotes for different insurance products
+                        to all customers visiting the website, handling an average of 87,000 monthly visits.</li>
+                </ul>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-header">
+                    <h3>Java Developer <span class="company">@ Ennoble Technologies</span></h3>
+                    <span>Hyderabad, IN | Sep 2018 - Nov 2019</span>
+                </div>
+                <ul class="timeline-details">
+                    <li>Designed and implemented an architecture combining Spring MVC and Hibernate (JPA) for MySQL and
+                        Oracle databases, which led to a 40% decrease in query response times for REST and SOAP-based
+                        web services.</li>
+                    <li>Developed an authentication system using OAuth 2.0, enhancing security and reducing user-facing
+                        errors. Created REST APIs and microservices with the Spring framework using Eclipse IDE,
+                        achieving a 20% reduction in API response times.</li>
+                    <li>Orchestrated CI/CD pipelines using Jenkins, streamlined containerization with Docker, and
+                        optimized build processes with Maven, enhancing deployment efficiency.</li>
+                    <li>Contributed to the migration of a microservice-based Fitness application from the .NET framework
+                        to Java Spring Boot, resulting in a 30% increase in performance and user satisfaction.</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <h1 class="text-center">Technical Skills</h1>
-            <div class="row g-4">
-                <!-- Programming Languages -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="card skills-card">
-                        <div class="card-body">
-                            <i class="devicon-java-plain colored skill-main-icon"></i>
-                            <h4 class="card-title">Languages</h4>
-                            <ul class="skills-list">
-                                <li><i class="devicon-java-plain colored"></i> Java</li>
-                                <li><i class="devicon-javascript-plain colored"></i> JavaScript</li>
-                                <li><i class="devicon-typescript-plain colored"></i> TypeScript</li>
-                                <li><i class="devicon-python-plain colored"></i> Python</li>
-                                <li><i class="devicon-go-plain colored"></i> Go</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Frameworks -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="card skills-card">
-                        <div class="card-body">
-                            <i class="devicon-spring-plain colored skill-main-icon"></i>
-                            <h4 class="card-title">Frameworks</h4>
-                            <ul class="skills-list">
-                                <li><i class="devicon-spring-plain colored"></i> Spring Boot</li>
-                                <li><i class="devicon-nodejs-plain colored"></i> Node.js</li>
-                                <li><i class="devicon-react-plain colored"></i> React</li>
-                                <li><i class="devicon-angularjs-plain colored"></i> Angular</li>
-                                <li><i class="devicon-graphql-plain colored"></i> GraphQL</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Databases -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="card skills-card">
-                        <div class="card-body">
-                            <i class="devicon-postgresql-plain colored skill-main-icon"></i>
-                            <h4 class="card-title">Databases</h4>
-                            <ul class="skills-list">
-                                <li><i class="devicon-postgresql-plain colored"></i> PostgreSQL</li>
-                                <li><i class="devicon-mysql-plain colored"></i> MySQL</li>
-                                <li><i class="devicon-mongodb-plain colored"></i> MongoDB</li>
-                                <li><i class="devicon-oracle-plain colored"></i> Oracle</li>
-                                <li><i class="devicon-amazonwebservices-plain colored"></i> AWS RDS</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Cloud & DevOps -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="card skills-card">
-                        <div class="card-body">
-                            <i class="devicon-amazonwebservices-plain colored skill-main-icon"></i>
-                            <h4 class="card-title">Cloud & DevOps</h4>
-                            <ul class="skills-list">
-                                <li><i class="devicon-amazonwebservices-plain colored"></i> AWS</li>
-                                <li><i class="devicon-docker-plain colored"></i> Docker</li>
-                                <li><i class="devicon-kubernetes-plain colored"></i> Kubernetes</li>
-                                <li><i class="devicon-terraform-plain colored"></i> Terraform</li>
-                                <li><i class="devicon-jenkins-plain colored"></i> Jenkins</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Education -->
+    <section id="education" class="fade-in-section">
+        <h2>Education</h2>
+        <div class="education-card">
+            <h3>State University of New York (SUNY) at New Paltz, NY</h3>
+            <span>Master of Science in Computer Science</span>
+        </div>
+        <div class="education-card">
+            <h3>KL University, India</h3>
+            <span>Bachelor of Technology in Computer Science</span>
         </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience">
-        <div class="container mt-4 pt-4">
-            <h1 class="text-center">Professional Experience</h1>
-            <div class="timeline">
-                <!-- USAA -->
-                <div class="timeline-item">
-                    <div class="timeline-header">
-                        <h3>Senior Software Engineer <span class="company">| USAA</span></h3>
-                        <p class="duration">Sep 2024 - Present | Plano, TX</p>
-                    </div>
-                    <ul class="timeline-details">
-                        <li>Designed and developed scalable RESTful APIs for Dwelling Policy Inquiry using Java Spring
-                            Boot, integrating with Guidewire and legacy systems, and deployed on AWS EKS with
-                            infrastructure automated through Terraform.</li>
-                        <li>Implemented advanced testing frameworks with JUnit, Pitest, Postman, and Taurus/JMeter,
-                            achieving 100% unit and mutation coverage and automating results integration into GitLab
-                            CI/CD pipelines and Jira workflows.</li>
-                        <li>Enhanced performance and reliability by leveraging AWS ElastiCache (Redis OSS) for
-                            distributed caching, integrating Datadog and Kibana ELK for real-time monitoring and
-                            proactive issue resolution.</li>
-                        <li>Enhanced performance and resilience by implementing circuit breaker patterns and retry
-                            mechanisms to handle failures gracefully and ensure high availability of APIs under
-                            intermittent faults or downtime.</li>
-                        <li>Engineered high-performance APIs to handle over 30 million monthly hits from consumers
-                            across Policy Inquiry and Quote Inquiry systems, optimizing throughput and ensuring seamless
-                            performance under heavy traffic.</li>
-                        <li>Authored low-level design documents and artifacts to define workflows, component
-                            interactions, and system dependencies for new feature implementations.</li>
-                        <li>Led the offshore team in implementing critical features, providing technical guidance,
-                            resolving blockers, and ensuring timely delivery of high-quality solutions.</li>
-                    </ul>
-                </div>
-
-                <!-- Broadridge -->
-                <div class="timeline-item">
-                    <div class="timeline-header">
-                        <h3>Senior Software Engineer <span class="company">| Broadridge</span></h3>
-                        <p class="duration">Jul 2023 - Aug 2024 | Coppell, TX</p>
-                    </div>
-                    <ul class="timeline-details">
-                        <li>Migrated monolithic applications from Struts to microservices using Spring Boot and RESTful
-                            APIs, significantly improving system performance and scalability.</li>
-                        <li>Re-engineered front-end components using Angular 13, optimizing the application’s modularity
-                            and maintainability, expediting feature development, and improving user experience.</li>
-                        <li>Leveraged an SQL-based relational database architecture to ensure data integrity and
-                            consistency across all microservices, supporting seamless data handling and high-performance
-                            queries in the AWS cloud environment.</li>
-                        <li>Designed and deployed AWS cloud solutions (EC2, ECS, S3, RDS, EBS) with Elastic Load
-                            Balancing and Auto Scaling groups to ensure application resilience and scalability.</li>
-                        <li>Integrated MuleSoft to streamline connections with backend services, which sped up response
-                            times for key transactions, a major factor in enhancing user experience.</li>
-                        <li>Built and maintained a CI/CD pipeline with Jenkins and Kubernetes, using containers for
-                            smoother deployments and reduced downtime during releases, which improved team efficiency
-                            and application uptime.</li>
-                        <li>Optimized the adaptability of the UI for different screen sizes, which reduced the UI
-                            compatibility issues by 25%.</li>
-                        <li>Led a team of interns in implementing a proposal category service using AWS lambda enabling
-                            existing services and web client to control alerts. Additionally, supervised the entire
-                            redesign of the user account page on the website.</li>
-                    </ul>
-                </div>
-
-                <!-- Broadridge Experience -->
-                <div class="timeline-item">
-                    <div class="timeline-header">
-                        <h3>Software Engineer <span class="company">| Broadridge</span></h3>
-                        <p class="duration">Feb 2022 - Jun 2023 | Coppell, TX</p>
-                    </div>
-                    <ul class="timeline-details">
-                        <li>Developed high-performing APIs using GraphQL and Spring Boot, improving data flow and
-                            enabling smooth integration with third-party systems. Worked closely with external vendors
-                            to ensure technical alignment, successfully enhancing the performance of microservices
-                            architecture.</li>
-                        <li>Integrated Spring Boot with MySQL using Spring Data JPA, replacing older persistence layers
-                            to optimize database interactions while adhering to JPA/Hibernate standards. Improved data
-                            consistency and query performance through efficient handling of relational database
-                            operations.</li>
-                        <li>Developed and maintained Proxy Votes web and mobile applications using Angular, JavaScript,
-                            TypeScript, and jQuery, allowing shareholders to cast votes seamlessly online.</li>
-                        <li>Developed unit tests using Mockito as part of Test-Driven Development (TDD) practices,
-                            improving code quality and maintaining comprehensive test coverage.</li>
-                    </ul>
-                </div>
-
-                <!-- Capital One -->
-                <div class="timeline-item">
-                    <div class="timeline-header">
-                        <h3>Software Engineer <span class="company">| Capital One</span></h3>
-                        <p class="duration">Aug 2021 - Dec 2021 | Plano, TX</p>
-                    </div>
-                    <ul class="timeline-details">
-                        <li>Created gRPC APIs to seamlessly integrate with external vendors, while employing NestJS
-                            migrations for establishing structured database schemas on the server side. Proficiently
-                            utilized new TypeScript features such as block scope, type constraints, decorators, arrow
-                            functions, classes, interfaces, and modules.</li>
-                        <li>Orchestrated the adoption of a Microservices architecture within the NestJS framework.
-                            Coordinated the interplay of Microservices via a mix of RESTful interfaces and Kafka message
-                            brokers. Ensured extensive unit test coverage through a test-driven development approach.
-                        </li>
-                        <li>Worked in the quoting domain, responsible for providing quotes for different insurance
-                            products to all customers visiting the website, handling an average of 87,000 monthly
-                            visits.</li>
-                    </ul>
-                </div>
-
-                <!-- Ennoble Technologies -->
-                <div class="timeline-item">
-                    <div class="timeline-header">
-                        <h3>Java Developer <span class="company">| Ennoble Technologies</span></h3>
-                        <p class="duration">Sep 2018 - Nov 2019 | Hyderabad, IN</p>
-                    </div>
-                    <ul class="timeline-details">
-                        <li>Designed and implemented an architecture combining Spring MVC and Hibernate (JPA) for MySQL
-                            and Oracle databases, which led to a 40% decrease in query response times for REST and
-                            SOAP-based web services.</li>
-                        <li>Developed an authentication system using OAuth 2.0, enhancing security and reducing
-                            user-facing errors. Created REST APIs and microservices with the Spring framework using
-                            Eclipse IDE, achieving a 20% reduction in API response times.</li>
-                        <li>Orchestrated CI/CD pipelines using Jenkins, streamlined containerization with Docker, and
-                            optimized build processes with Maven, enhancing deployment efficiency.</li>
-                        <li>Contributed to the migration of a microservice-based Fitness application from the .NET
-                            framework to Java Spring Boot, resulting in a 30% increase in performance and user
-                            satisfaction.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education">
-        <div class="container mt-4 pt-4">
-            <h1 class="text-center">Education</h1>
-            <div class="row g-4">
-                <div class="col-md-6">
-                    <div class="card education-card">
-                        <div class="card-body">
-                            <i class="fas fa-graduation-cap edu-icon"></i>
-                            <h4 class="card-title">Master of Science in Computer Science</h4>
-                            <p class="institution">State University of New York at New Paltz</p>
-                            <p class="duration">2020 - 2021</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card education-card">
-                        <div class="card-body">
-                            <i class="fas fa-university edu-icon"></i>
-                            <h4 class="card-title">Bachelor of Technology in Computer Science</h4>
-                            <p class="institution">KL University, India</p>
-                            <p class="duration">2015 - 2019</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container mt-5">
-            <h1 class="text-center">Contact Me</h1>
-            <div class="row mt-4 g-4">
-                <div class="col-md-6">
-                    <div class="contact-info">
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <p><strong>Location:</strong> Plano, Texas</p>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <p><strong>Phone:</strong> +1 (929) 543-7182</p>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <p><strong>Email:</strong> <a
-                                    href="mailto:sivapaleti21@outlook.com">sivapaleti21@outlook.com</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <form class="contact-form">
-                        <div class="mb-3">
-                            <input type="text" class="form-control" placeholder="Your Name" required>
-                        </div>
-                        <div class="mb-3">
-                            <input type="email" class="form-control" placeholder="Your Email" required>
-                        </div>
-                        <div class="mb-3">
-                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Back to Top Button -->
-    <button id="back-to-top" class="btn btn-primary" title="Back to Top">
-        <i class="fas fa-arrow-up"></i> Back to Top
-    </button>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container text-center">
-            <div class="social-links">
-                <a href="https://linkedin.com/in/sivapaleti" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/sivapaleti-2105" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="mailto:sivapaleti21@outlook.com"><i class="fas fa-envelope"></i></a>
-            </div>
-            <p class="copyright">&copy; 2025 Siva Paleti. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 
