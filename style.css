@@ -93,6 +93,28 @@ nav a:hover {
     background: #005f87;
 }
 
+/* Resume specific styles */
+.resume-button {
+    background: #ff7f50; /* coral to stand out */
+    color: #fff;
+    padding: 0.55rem 1.2rem;
+    border-radius: 22px;
+    font-weight: 600;
+}
+.resume-button:hover {
+    background: #e76b3f;
+}
+
+/* Nav resume link styled as a pill */
+.nav-resume {
+    background: rgba(255,255,255,0.12);
+    padding: 0.4rem 0.9rem;
+    border-radius: 18px;
+}
+.nav-resume:hover {
+    background: rgba(255,255,255,0.18);
+}
+
 /* Section Styles */
 section {
     margin: 2.5rem auto;
