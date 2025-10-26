@@ -6,7 +6,7 @@
     --background-color: #f8f9fa;
     --section-background: #fff;
     --accent-color: #0077b6;
-    --shadow: 0 4px 24px rgba(0,0,0,0.08);
+    --shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
 }
 
 body {
@@ -27,6 +27,7 @@ nav {
     top: 0;
     z-index: 100;
 }
+
 nav ul {
     list-style: none;
     display: flex;
@@ -35,6 +36,7 @@ nav ul {
     margin: 0;
     padding: 0;
 }
+
 nav a {
     color: #fff;
     text-decoration: none;
@@ -42,6 +44,7 @@ nav a {
     font-size: 1.1rem;
     transition: color 0.2s;
 }
+
 nav a:hover {
     color: var(--light-color);
 }
@@ -55,6 +58,7 @@ nav a:hover {
     box-shadow: var(--shadow);
     margin-bottom: 2rem;
 }
+
 .hero-img {
     width: 140px;
     height: 140px;
@@ -62,22 +66,26 @@ nav a:hover {
     border-radius: 50%;
     border: 4px solid var(--light-color);
     margin-bottom: 1rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
+
 .hero-content h1 {
     font-size: 2.5rem;
     margin-bottom: 0.3rem;
     letter-spacing: 1px;
 }
+
 .hero-content h2 {
     font-size: 1.3rem;
     font-weight: 400;
     margin-bottom: 1rem;
 }
+
 .hero-content p {
     font-size: 1.1rem;
     margin-bottom: 1.2rem;
 }
+
 .hero-links a {
     background: var(--accent-color);
     color: #fff;
@@ -89,30 +97,34 @@ nav a:hover {
     transition: background 0.2s;
     display: inline-block;
 }
+
 .hero-links a:hover {
     background: #005f87;
 }
 
 /* Resume specific styles */
 .resume-button {
-    background: #ff7f50; /* coral to stand out */
+    background: #ff7f50;
+    /* coral to stand out */
     color: #fff;
     padding: 0.55rem 1.2rem;
     border-radius: 22px;
     font-weight: 600;
 }
+
 .resume-button:hover {
     background: #e76b3f;
 }
 
 /* Nav resume link styled as a pill */
 .nav-resume {
-    background: rgba(255,255,255,0.12);
+    background: rgba(255, 255, 255, 0.12);
     padding: 0.4rem 0.9rem;
     border-radius: 18px;
 }
+
 .nav-resume:hover {
-    background: rgba(255,255,255,0.18);
+    background: rgba(255, 255, 255, 0.18);
 }
 
 /* Section Styles */
@@ -124,6 +136,7 @@ section {
     border-radius: 12px;
     box-shadow: var(--shadow);
 }
+
 h2 {
     color: var(--accent-color);
     margin-bottom: 1.2rem;
@@ -131,14 +144,17 @@ h2 {
     border-left: 4px solid var(--accent-color);
     padding-left: 0.7rem;
 }
+
 .skills-list {
     list-style: disc inside;
     padding-left: 1rem;
     margin-bottom: 0;
 }
+
 .timeline {
     margin-top: 2rem;
 }
+
 .timeline-item {
     margin-bottom: 2.5rem;
     padding-bottom: 1.5rem;
@@ -149,54 +165,66 @@ h2 {
     transform: translateY(30px);
     transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .timeline-item:last-child {
     border-left: none;
 }
+
 .timeline-item.visible {
     opacity: 1;
     transform: translateY(0);
 }
+
 .timeline-header h3 {
     margin: 0;
     font-size: 1.2rem;
     font-weight: 600;
 }
+
 .timeline-header .company {
     color: var(--accent-color);
     font-weight: 400;
 }
+
 .timeline-header span {
     display: block;
     font-size: 0.95rem;
     color: #888;
     margin-bottom: 0.5rem;
 }
+
 .timeline-details {
     margin: 0.5rem 0 0 0;
     padding-left: 1.2rem;
 }
+
 .timeline-details li {
     margin-bottom: 0.7rem;
 }
+
 .education-card {
     opacity: 0;
     transform: translateY(30px);
     transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 1.5rem;
 }
+
 .education-card.visible {
     opacity: 1;
     transform: translateY(0);
 }
+
 .education-card ul {
     list-style: disc inside;
     padding-left: 1rem;
 }
+
 .contact-info {
     opacity: 0;
     transform: translateY(30px);
     transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .contact-info.visible {
     opacity: 1;
     transform: translateY(0);
@@ -208,6 +236,7 @@ h2 {
     transform: translateY(30px);
     transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .fade-in-section.visible {
     opacity: 1;
     transform: translateY(0);
@@ -218,16 +247,20 @@ h2 {
     section {
         padding: 1.2rem 0.5rem;
     }
+
     .hero-content h1 {
         font-size: 1.5rem;
     }
+
     h2 {
         font-size: 1.2rem;
     }
+
     .hero-img {
         width: 90px;
         height: 90px;
     }
+
     nav ul {
         gap: 1rem;
     }
