@@ -1,43 +1,32 @@
-Place your resume (DOCX) here so the site can serve and allow visitors to download it.
+## Siva Paleti Portfolio Website
 
-Recommended file path and name (exact):
+Welcome to the source for my personal portfolio website!
 
-assets/resume/Siva_Paleti_Resume.docx
+### About This Site
+This portfolio is a showcase of my experience, skills, and projects as a Senior Software Engineer. It is designed to be:
 
-Why this path/name:
-- `index.html` includes a link that points to this exact path. If you use a different name, update the link in `index.html` accordingly.
+- **Modern & Responsive:** Built with HTML, CSS, and JavaScript for a seamless experience on all devices.
+- **Professional:** Highlights my work experience, education, and technical skills in a clean, visually appealing layout.
+- **Interactive:** Features smooth animations, a typing effect, and easy navigation.
+- **Accessible:** Resume available for both in-browser viewing (PDF) and download (DOCX).
 
-How to add your resume:
-1. Copy the DOCX file from your machine into the folder `assets/resume`.
-   - Example (macOS, zsh):
+### Features
+- Hero section with contact links (Email, LinkedIn, GitHub)
+- Downloadable and viewable resume
+- About, Skills, Experience, and Education sections
+- Animated timeline for work history
+- Responsive design for mobile and desktop
 
-     cp ~/Downloads/YourResume.docx ./assets/resume/Siva_Paleti_Resume.docx
+### How to Use
+- To view my resume in-browser, click the Resume link in the top navigation (PDF format).
+- To download my resume, use the "Download Resume" button in the hero section (DOCX format).
+- Explore the sections to learn more about my background and expertise.
 
-2. Commit the file to Git if you want it in the repo (optional):
+### Customization
+If you wish to use this template for your own portfolio:
+1. Replace the resume files in `assets/resume/` with your own (PDF and DOCX).
+2. Update the content in `index.html` to reflect your own experience and skills.
+3. Swap out the profile image in `assets/heroImage.jpg`.
 
-     git add assets/resume/Siva_Paleti_Resume.docx
-     git commit -m "Add resume DOCX"
-
-Converting DOCX to PDF (optional):
-- If you'd like a PDF fallback so visitors can view the resume in-browser, convert the DOCX to PDF and place it at `assets/resume/Siva_Paleti_Resume.pdf`.
-
-Local conversion using LibreOffice (soffice):
-
-- Using `soffice` (LibreOffice) on macOS:
-
-    soffice --headless --convert-to pdf "assets/resume/Siva_Paleti_Resume.docx" --outdir "assets/resume"
-
-- Or using `libreoffice` binary:
-
-    libreoffice --headless --convert-to pdf "assets/resume/Siva_Paleti_Resume.docx" --outdir "assets/resume"
-
-Notes & browser behavior:
-- The `download` attribute in the link encourages browsers to download the file instead of opening it inline, but actual behavior depends on the user's browser settings.
-- If you want the PDF to open in the browser first, link to `Siva_Paleti_Resume.pdf` (no `download` attribute) or provide both links.
-
-If you'd like, I can:
-- Add a visible nav item for the resume in the top navigation.
-- Add a styled button for the resume (edit `style.css`).
-- Create both DOCX and PDF links in `index.html` with icons.
-
-Tell me if you want me to add any of those enhancements and whether you want me to add a placeholder file for now.
+---
+Thank you for visiting my portfolio!
