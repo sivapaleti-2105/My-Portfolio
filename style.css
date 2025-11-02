@@ -9,7 +9,7 @@
     --accent-color: #0077b6;
     --text-color: #2c3e50;
     --timeline-border: #0077b6;
-    --shadow: 0 4px 24px rgba(0,0,0,0.08);
+    --shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
     --card-hover: #f0f7ff;
     --timeline-date: #666;
 }
@@ -24,7 +24,7 @@
     --accent-color: #4dabf7;
     --text-color: #e0e0e0;
     --timeline-border: #4dabf7;
-    --shadow: 0 4px 24px rgba(0,0,0,0.2);
+    --shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
     --card-hover: #2a2a2a;
     --timeline-date: #b0b0b0;
 }
@@ -80,7 +80,7 @@ body {
         padding: 6px 12px;
         font-size: 0.8rem;
     }
-    
+
     .theme-toggle i {
         font-size: 1rem;
     }
@@ -96,6 +96,7 @@ nav {
     top: 0;
     z-index: 100;
 }
+
 nav ul {
     list-style: none;
     display: flex;
@@ -104,6 +105,7 @@ nav ul {
     margin: 0;
     padding: 0;
 }
+
 nav a {
     color: #fff;
     text-decoration: none;
@@ -111,6 +113,7 @@ nav a {
     font-size: 1.1rem;
     transition: color 0.2s;
 }
+
 nav a:hover {
     color: var(--light-color);
 }
@@ -124,6 +127,7 @@ nav a:hover {
     box-shadow: var(--shadow);
     margin-bottom: 2rem;
 }
+
 .hero-img {
     width: 140px;
     height: 140px;
@@ -131,22 +135,26 @@ nav a:hover {
     border-radius: 50%;
     border: 4px solid var(--light-color);
     margin-bottom: 1rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
+
 .hero-content h1 {
     font-size: 2.5rem;
     margin-bottom: 0.3rem;
     letter-spacing: 1px;
 }
+
 .hero-content h2 {
     font-size: 1.3rem;
     font-weight: 400;
     margin-bottom: 1rem;
 }
+
 .hero-content p {
     font-size: 1.1rem;
     margin-bottom: 1.2rem;
 }
+
 .hero-links a {
     background: var(--accent-color);
     color: #fff;
@@ -158,6 +166,7 @@ nav a:hover {
     transition: background 0.2s;
     display: inline-block;
 }
+
 .hero-links a:hover {
     background: #005f87;
 }
@@ -172,6 +181,7 @@ section {
     box-shadow: var(--shadow);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
+
 h2 {
     color: var(--accent-color);
     margin-bottom: 1.2rem;
@@ -179,14 +189,17 @@ h2 {
     border-left: 4px solid var(--accent-color);
     padding-left: 0.7rem;
 }
+
 .skills-list {
     list-style: disc inside;
     padding-left: 1rem;
     margin-bottom: 0;
 }
+
 .timeline {
     margin-top: 2rem;
 }
+
 .timeline-item {
     margin-bottom: 2.5rem;
     padding-bottom: 1.5rem;
@@ -213,54 +226,65 @@ a:hover {
     color: var(--accent-color);
     transition: color 0.3s ease;
 }
+
 /* Remove the style that hides the last timeline item's border */
 .timeline-item.visible {
     opacity: 1;
     transform: translateY(0);
 }
+
 .timeline-header h3 {
     margin: 0;
     font-size: 1.2rem;
     font-weight: 600;
 }
+
 .timeline-header .company {
     color: var(--accent-color);
     font-weight: 400;
 }
+
 .timeline-header span {
     display: block;
     font-size: 0.95rem;
     color: var(--timeline-date);
     margin-bottom: 0.5rem;
 }
+
 .timeline-details {
     margin: 0.5rem 0 0 0;
     padding-left: 1.2rem;
     color: var(--text-color);
 }
+
 .timeline-details li {
     margin-bottom: 0.7rem;
     transition: color 0.3s ease;
 }
+
 .education-card {
     opacity: 0;
     transform: translateY(30px);
     transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 1.5rem;
 }
+
 .education-card.visible {
     opacity: 1;
     transform: translateY(0);
 }
+
 .education-card ul {
     list-style: disc inside;
     padding-left: 1rem;
 }
+
 .contact-info {
     opacity: 0;
     transform: translateY(30px);
     transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .contact-info.visible {
     opacity: 1;
     transform: translateY(0);
@@ -272,6 +296,7 @@ a:hover {
     transform: translateY(30px);
     transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .fade-in-section.visible {
     opacity: 1;
     transform: translateY(0);
@@ -314,7 +339,7 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.5), transparent);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5), transparent);
     padding: 1.5rem;
     color: #fff;
     transform: translateY(100%);
@@ -356,42 +381,52 @@ a:hover {
         padding: 1.2rem 0.8rem;
         margin: 1.5rem 0.5rem;
     }
+
     .hero-content h1 {
         font-size: 1.5rem;
     }
+
     h2 {
         font-size: 1.2rem;
     }
+
     .hero-img {
         width: 90px;
         height: 90px;
     }
+
     nav ul {
         gap: 1rem;
         font-size: 0.9rem;
     }
+
     .timeline-item {
         padding-left: 1rem;
         margin-bottom: 2rem;
     }
+
     .timeline-header h3 {
         font-size: 1.1rem;
         line-height: 1.4;
     }
+
     .timeline-details {
         padding-left: 0.5rem;
         margin-top: 0.8rem;
     }
+
     .timeline-details li {
         font-size: 0.95rem;
         line-height: 1.5;
         margin-bottom: 0.8rem;
     }
+
     .skills-list li {
         font-size: 0.95rem;
         line-height: 1.5;
         margin-bottom: 0.8rem;
     }
+
     .hero-links a {
         margin: 0.3rem;
         font-size: 0.9rem;

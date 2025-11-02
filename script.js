@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const themeToggle = document.querySelector('.theme-toggle');
     const themeIcon = themeToggle.querySelector('i');
     const themeText = themeToggle.querySelector('span');
-    
+
     // Check for saved theme preference or default to 'light'
     const savedTheme = localStorage.getItem('theme') || 'light';
     setTheme(savedTheme);
